@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-red: #DC1017;
+    --brand-red-hover: #B80D13;
+    --brand-charcoal: #373333;
+    --brand-charcoal-dark: #282525;
+    --brand-light: #FAFAFA;
+    --brand-slate: #F5F5F5;
+    --brand-border: #E5E7EB;
+    --brand-dark: #373333;
+  }
+
+  body {
+    background-color: #FAFAFA;
+    color: #373333;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Subtle Link Underline Animation for Header */
+.nav-link-underline {
+  position: relative;
+}
+
+.nav-link-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #DC1017;
+  transition: width 0.2s ease-in-out;
+}
+
+.nav-link-underline:hover::after,
+.nav-link-underline.active::after {
+  width: 100%;
+}

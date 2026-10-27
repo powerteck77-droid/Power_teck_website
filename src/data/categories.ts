@@ -1,0 +1,58 @@
+import { Category } from '@/lib/types';
+
+export const categories: Category[] = [
+  {
+    id: 'cat-air-coolers',
+    name: 'Air Coolers',
+    slug: 'air-coolers',
+    description: 'High-performance desert, commercial, personal, and designer glass-top air coolers with dense honeycomb pads.',
+    iconName: 'Wind',
+    imageUrl: 'https://powerteck.in/wp-content/uploads/2026/01/CARNIVAL-90L-265x331.png',
+    productCount: 4,
+  },
+  {
+    id: 'cat-fans',
+    name: 'Ceiling & BLDC Fans',
+    slug: 'ceiling-and-bldc-fans',
+    description: 'Decorative high-speed 390 RPM ceiling fans and ultra energy-efficient BLDC fans with LED lights & smart remote.',
+    iconName: 'Fan',
+    imageUrl: 'https://powerteck.in/wp-content/uploads/2023/08/SENORITA-265x331.png',
+    productCount: 2,
+  },
+  {
+    id: 'cat-mixer-grinders',
+    name: 'Mixer Grinders & Juicers',
+    slug: 'mixer-grinders-and-juicers',
+    description: 'Heavy-duty 550W–750W copper-motor mixer grinders, juicers, and nutri blenders with food-grade SS jars.',
+    iconName: 'Zap',
+    imageUrl: 'https://powerteck.in/wp-content/uploads/2023/08/PULSAR-scaled-265x331.jpg',
+    productCount: 1,
+  },
+  {
+    id: 'cat-kitchen-chimneys',
+    name: 'Kitchen Chimneys',
+    slug: 'kitchen-chimneys',
+    description: 'High-suction 60cm & 90cm kitchen chimneys with stainless steel baffle filters, push buttons, and LED lighting.',
+    iconName: 'Flame',
+    imageUrl: 'https://powerteck.in/wp-content/uploads/2026/01/RETRO3-265x331.png',
+    productCount: 1,
+  },
+  {
+    id: 'cat-home-theaters',
+    name: 'Home Theaters & Audio',
+    slug: 'home-theaters-and-audio',
+    description: 'Dual tower speaker systems with deep bass 8-inch subwoofers, Bluetooth 5.0, USB, FM, and wireless karaoke.',
+    iconName: 'Volume2',
+    imageUrl: 'https://powerteck.in/wp-content/uploads/2025/08/28-tower-265x331.jpg',
+    productCount: 1,
+  },
+  {
+    id: 'cat-irons-heating',
+    name: 'Irons & Heating Appliances',
+    slug: 'irons-and-heating',
+    description: 'Heavy-weight plancha dry irons and shockproof immersion water heater rods with quick-heat technology.',
+    iconName: 'Sparkles',
+    imageUrl: 'https://powerteck.in/wp-content/uploads/2026/01/RETROa-265x331.png',
+    productCount: 1,
+  },
+];
